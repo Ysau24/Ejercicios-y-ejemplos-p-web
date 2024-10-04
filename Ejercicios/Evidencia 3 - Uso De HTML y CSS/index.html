@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    hello
+    <form action="#">
+        <section class="Formulario web"> 
+            
+            <h1><strong>Formulario de contacto</strong></h1>
+
+            <p>Enviar un correo electrónico.Todos los campos con el asterísco ('*') son obligatorios</p>
+
+            <label class="labels" for="nombre">Nombre*</label>
+
+            <label class="labels" for="correo electrónico">Correo electrónico*</label>
+
+            <label class="labels" for="asunto">Asunto*</label>
+
+            <br><br> <!--Salto a la siguiente línea (donde irán los tres input)-->
+
+            <input type ="text" class="inputs" id="nombre" name="nombre" required/>
+            
+            <input type ="email" class="inputs" id="correo electrónico" name="correo electrónico" required/>
+
+            <input type ="text" class="inputs" id="asunto" name="asunto" required/>
+
+            <br><br> <!--Salto a la siguiente línea (donde irá el label de "mensaje")-->
+
+            <label class="labels" for="Mensaje">Mensaje</label>
+
+            <br><br> <!--Salto a la siguiente línea (donde irá el text area)-->
+
+            <textarea id="mensaje" name="mensaje"></textarea>
+
+            <br><br> <!--Salto a la siguiente línea (donde irá el botón "Enviar")-->
+
+            <input type="submit" id="enviar"value="Enviar" name="enviar">
+
+        </section>
+    </form> 
 </body>
 </html>
