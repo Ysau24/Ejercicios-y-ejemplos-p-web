@@ -21,7 +21,7 @@ form {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 500px;
+    width: 600px;
 }
 
 h1 {
@@ -50,12 +50,12 @@ div {
 
 #label2 
 {
-    margin-left: 85px; /* Espacio entre los grupos de entrada */
+    margin-left: 128px; /* Espacio entre los grupos de entrada */
 }
 
 #label3 
 {
-    margin-left: 8px; /* Espacio entre los grupos de entrada */
+    margin-left: 44px; /* Espacio entre los grupos de entrada */
 }
 
 .input-container {
@@ -65,7 +65,7 @@ div {
 
 input[type="text"],
 input[type="email"] {
-    width: 30%; /* Ancho para tres inputs en una fila */
+    width: 32%; /* Ancho para tres inputs en una fila */
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px; /* Espacio inferior */
@@ -75,7 +75,7 @@ input[type="email"] {
 }
 
 textarea {
-    width: 90%; /* Ancho completo */
+    width: 94%; /* Ancho completo */
     height: 90px; /* Altura del área de texto */
     resize: none; /* Deshabilitar redimensionamiento */
     padding: 10px; /* Espaciado interior */
