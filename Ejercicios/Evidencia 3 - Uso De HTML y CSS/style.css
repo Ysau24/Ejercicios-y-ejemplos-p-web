@@ -92,3 +92,9 @@ textarea {
 {
     background-color: #4682b4; /* Color más oscuro al pasar el ratón */
 }
+
+#mensaje
+{
+    font-weight: bold;
+    color: #333;
+}
