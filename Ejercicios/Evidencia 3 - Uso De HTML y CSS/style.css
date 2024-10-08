@@ -1,11 +1,3 @@
-
-#enviar
-{
-    background-color:steelblue;
-    border: 0;
-    color: white;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -84,8 +76,19 @@ textarea {
     margin-top: 10px; /* Espacio superior */
 }
 
-#enviar:hover {
-    background-color: #4682b4; /* Color más oscuro al pasar el ratón */
+
+
+#enviar
+{
+    padding: 10px;
+    background-color:steelblue;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px
 }
 
-
+#enviar:hover 
+{
+    background-color: #4682b4; /* Color más oscuro al pasar el ratón */
+}
