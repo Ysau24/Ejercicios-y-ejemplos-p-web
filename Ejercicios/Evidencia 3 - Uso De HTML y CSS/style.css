@@ -38,18 +38,24 @@ p {
     margin-bottom: 20px;
 }
 
-.labels {
+div {
     display: inline;
     justify-content: space-between; /* Distribuir los espacios entre los elementos */
-    margin-left: 42px; /* Espacio entre los grupos de entrada */
-}
-
-label {
+    text-align: left;
     font-weight: bold;
     width: 30%;
     color: #333;
-    flex: 1; /* Distribuir el espacio de manera uniforme */
     
+}
+
+#label2 
+{
+    margin-left: 85px; /* Espacio entre los grupos de entrada */
+}
+
+#label3 
+{
+    margin-left: 85px; /* Espacio entre los grupos de entrada */
 }
 
 .input-container {
