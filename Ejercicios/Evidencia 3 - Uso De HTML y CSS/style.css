@@ -66,6 +66,13 @@ input[type="email"] {
     box-sizing: border-box; /* Incluye padding y border en el ancho total */
 }
 
+
+#mensaje
+{
+    font-weight: bold;
+    color: #333;
+}
+
 textarea {
     width: 94%; /* Ancho completo */
     height: 90px; /* Altura del área de texto */
@@ -75,8 +82,6 @@ textarea {
     border-radius: 4px; /* Bordes redondeados */
     margin-top: 10px; /* Espacio superior */
 }
-
-
 
 #enviar
 {
@@ -93,8 +98,4 @@ textarea {
     background-color: #4682b4; /* Color más oscuro al pasar el ratón */
 }
 
-#mensaje
-{
-    font-weight: bold;
-    color: #333;
-}
+
