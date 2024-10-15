@@ -16,3 +16,10 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     width: 600px;
 }
+
+h2 {
+    background-color: white; /* Color de fondo blanco */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave, opcional */
+    display: inline-block; /* Hace que el fondo se ajuste al contenido */
+}
