@@ -23,3 +23,9 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave, opcional */
     display: inline-block; /* Hace que el fondo se ajuste al contenido */
 }
+
+.lista:hover {
+    background-color: rgb(34, 150, 153); /* Cambia el color de fondo en hover */
+    transform: scale(1.05); /* Agranda ligeramente el contenedor */
+    transition: transform 0.3s ease; /* Suaviza el cambio de tamaño */
+}
