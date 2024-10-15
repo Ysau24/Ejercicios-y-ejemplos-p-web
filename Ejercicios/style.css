@@ -1,0 +1,18 @@
+body {
+    font-family: 'Times New Roman';
+    background-image: url(web.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative;
+}
+
+.Lista
+{
+    background-color: rgb(52, 196, 201);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 600px;
+}
