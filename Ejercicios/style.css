@@ -1,31 +1,50 @@
 body {
-    font-family: 'Times New Roman';
-    background-image: url(web.jpg);
+    font-family: Tahoma, sans-serif;
+    background-image: url(web.png);
+    background-size: cover; 
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     position: relative;
+    margin: 0; /* Elimina cualquier margen alrededor del body */
 }
 
 .Lista
 {
-    background-color: rgb(52, 196, 201);
+    
     padding: 30px;
+    background-color: rgba(209, 19, 98, 0.771);
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     width: 600px;
 }
 
+.lista:hover 
+{
+    transform: scale(1.05); /* Agranda ligeramente el contenedor */
+    transition: transform 0.3s ease; /* Suaviza el cambio de tamaño */
+}
+
 h2 {
-    background-color: white; /* Color de fondo blanco */
-    padding: 10px; /* Espaciado interno */
+    font-family: Georgia;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.515); /* Color de fondo blanco */
+    padding: 1px; /* Espaciado interno */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave, opcional */
     display: inline-block; /* Hace que el fondo se ajuste al contenido */
 }
 
-.lista:hover {
-    background-color: rgb(34, 150, 153); /* Cambia el color de fondo en hover */
-    transform: scale(1.05); /* Agranda ligeramente el contenedor */
-    transition: transform 0.3s ease; /* Suaviza el cambio de tamaño */
+h1
+{
+    font-family: Georgia, serif;
+    text-align: center; /* Centra el texto dentro del h1 */
+    margin: 20px auto; /* Margen superior/inferior de 20px y auto para centrar horizontalmente */
+
 }
+
+.texto
+{
+    font-size: 15px;
+}
+
